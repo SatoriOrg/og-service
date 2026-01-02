@@ -1,0 +1,16 @@
+{
+  "name": "hono",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot ./src/index.ts"
+  },
+  "dependencies": {
+    "@vercel/og": "^0.8.6",
+    "hono": "^4.11.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}
